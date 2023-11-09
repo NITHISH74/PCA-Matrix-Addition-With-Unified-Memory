@@ -1,10 +1,9 @@
-# EXPERIMENT 4: Matrix-Addition-With-Unified-Memory
-Refer to the program sumMatrixGPUManaged.cu. Would removing the memsets below affect 
-performance? If you can, check performance with nvprof or nvvp.
-## AIM
+# Ex-04-Matrix-Addition-With-Unified-Memory
+Date:
+## AIM:
 To perform Matrix addition with unified memory and check its performance with nvprof.
 
-## PROCEDURE
+## PROCEDURE:
 1. Include the required files and library.
 2. Introduce a function named "initialData","sumMatrixOnHost","checkResult" to return the initialize the data , perform matrix summation on the host and then check the result.
 3. Create a grid 2D block 2D global function to perform matrix on the GPU.
